@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bodoni MT';
+  src: url("../bodoni-mt.ttf"), format("embedded-opentype");
+  cursor: url("../Img/cursor3.png"), url("../Img/cursor3.cur"), auto;
+}
+
+body {
+  /* background-color: #3d3d3d; */
+  background-image: url("../Img/background_website1.png");
+  background-attachment: fixed;
+  background-size: contain;
+  margin-bottom: 50px;
+}
+
+header{
+  margin: 10px 10px 0 10px;
+  padding: 20px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+b{
+  color: #8B0000;
+}
+
+p b:first-child {
+  font-style: bold;
+  color: black;
+  font-size: 28px;
+}
+
+p b{
+  color: #8B0000;
+  font-style: bold;
+  font-size: 29px;
+}
+
+header h1 {
+  font-size: 100px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+.trailer {
+  width: 1280px;
+  margin: auto;
+  background-color: #515151;
+  box-shadow: -10px 10px 3px black;
+}
+
+.trailer media iframe {
+  width: 1280px;
+  height: 720px;
+}
+
+main h1 {
+  font-size: 100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1280px:
+}
+
+main p {
+  font-size: 25px;
+  line-height: 40px;
+  padding: 20px;
+}
+
+main {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  background-color: #515151;
+  box-shadow: -10px 10px 3px black;
+  width: 1280px;
+  height: auto;
+  box-sizing: border-box;
+}
+
+main.contact{
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+main.contact section:first-child{
+  /* background-color: red; */
+  width: 50%;
+  float: left;
+}
+
+main.contact section:last-child{
+  /* background-color: blue; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+aside.contact section{
+  background-color: #515151;
+  width: 1280px;
+  height: auto;
+  margin: auto;
+  box-shadow: -10px 10px 3px black;
+  display: flex;
+  justify-content: center;
+}
+
+.submit{
+  float: right;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.socials ul{
+  width: auto;
+  margin-top: 10px;
+}
+
+.socials ul li{
+  width: 33%;
+  display: inline;
+}
+
+.socials img{
+  width: auto;
+  height: 100px;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.socials img:hover{
+  width: auto;
+  height: 100px;
+  background-color: #880D0D;
+  border-radius: 50px;
+}
+
+main.contact section h1{
+  font-size: 50px;
+}
+
+#nameform input{
+  margin-left: 37px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#mailform input{
+  margin-left: 22px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#messageform textarea{
+  font-size: 20px;
+  margin-top: 80px;
+  border-radius: 5px;
+}
+
+main.team{
+  padding: 20px;
+  display: flex;
+  background-image: url("../Img/team.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+main.team ul.teaminfo li{
+  font-size: 30px;
+}
+
+main.team h1{
+  width: 100%;
+  text-align: center;
+}
+
+main.team section{
+  flex-direction: row;
+  width: 1280px;
+}
+
+.download section{
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.download p{
+  text-align: center;
+  width: 100%;
+}
+
+.download1{
+  width: 45%;
+  float:left;
+  padding: 20px 0 20px 0;
+  box-sizing: border-box;
+  margin-top: 30px;
+  font-size: 40px;
+  background-image: url("../Img/logo_windows.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+}
+
+.download2{
+  width: 45%;
+  float: right;
+  padding: 20px 0 20px 0;
+  box-sizing: border-box;
+  margin-top: 30px;
+  font-size: 40px;
+  background-image: url("../Img/apple_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+}
+
+.download3{
+  width: 100%;
+  margin-top: 50px;
+  padding: 30px 0 30px 0;
+  font-size: 50px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+}
+
+.download1:hover{
+  background-color: #880D0D;
+}
+
+.download2:hover{
+  background-color: #880D0D;
+}
+
+.download3:hover{
+  background-color: #880D0D;
+}
+
+
+.downloadables{
+  width: 1280px;
+  height: auto;
+  margin: auto;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li{
+  width: 600px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+ul li b{
+  font-size: 30px;
+  color: black;
+}
+
+img#team{
+  width: 100%;
+}
+
+.personalpicture img:nth-child(odd){
+  float: right;
+  width: auto;
+  height: 400px;
+}
+
+.personalpicture img:nth-child(even){
+  float: left;
+  width: auto;
+  height: 400px;
+}
+
+.teaminfo li:nth-child(even){
+  float: left;
+}
+
+.teaminfo li:nth-child(odd){
+  float: right;
+}
+
+.teaminfo li{
+  width: 720px;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 90px;
+  height: auto;
+}
+
+section{
+  box-sizing: border-box;
+}
+
+article {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  background-color: #515151;
+  box-shadow: -10px 10px 3px black;
+  width: 1280px;
+  height: auto;
+}
+
+article h1 {
+  font-size: 100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1280px:
+}
+
+article h1#story{
+  text-align: center;
+}
+
+#backstory{
+  width: 66%;
+}
+
+#info{
+  font-size: 30px;
+  float: left;
+}
+
+img#poster{
+  float: right;
+  width: 40%;
+}
+
+article#backstory{
+  padding: 20px;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 1280px;
+}
+
+
+article img{
+  width: 400px;
+}
+
+article p {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+article section{
+padding: 20px;
+}
+
+main section{
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+
+section.gallery{
+  width: 1280px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+/* .gallery img{
+  height: 720px;
+} */
+
+.gallery-cell {
+  width: 100%;
+  height: 720px;
+  margin-right: 10px;
+}
+
+.gallery-cell img{
+  width: 100%;
+}
+
+main section img {
+  width: 400px;
+  float: right;
+  border: 1px solid red;
+}
+
+.no-border .gallery{
+  width: 1280px;
+  height: 700px;
+  margin-top: -100px;
+}
+
+.no-border .gallery-cell{
+  width: 50%;
+}
+
+.no-border .gallery-cell img{
+  width: 200%;
+}
